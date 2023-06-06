@@ -1,3 +1,29 @@
+Exp.No : 04 
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+Date : 30.03.2023 
+<br>
+
 # Histogram and Histogram Equalization of an image
 ## Aim
 To obtain a histogram for finding the frequency of pixels in an Image with pixel values ranging from 0 to 255. Also write the code using OpenCV to perform histogram equalization.
@@ -6,36 +32,16 @@ To obtain a histogram for finding the frequency of pixels in an Image with pixel
 Anaconda - Python 3.7
 
 ## Algorithm:
-### Step1:
-Read the gray and color image using imread()
-
-<br>
-
-### Step2:
-Print the image using imshow().
-
-<br>
-
-### Step3:
-Use calcHist() function to mark the image in graph frequency for gray and color image.
-
-<br>
-
-### Step4:
-cv2.equalize() is used to transform the gray image to equalized form.
-
-<br>
-
-### Step5:
-The Histogram of gray scale image and color image is shown.
-
-<br>
+- **Step1:** Read the gray and color image using imread()
+- **Step2:** Print the image using imshow().
+- **Step3:** Use calcHist() function to mark the image in graph frequency for gray and color image.
+- **Step4:** cv2.equalize() is used to transform the gray image to equalized form.
+- **Step5:** The Histogram of gray scale image and color image is shown.
 
 ## Program:
-```python
-# Developed By: Kaushika A
-# Register Number: 212221230048
-```
+> Developed By: Kaushika A <br>
+> Register Number: 212221230048
+
 ```python
 # Write your code to find the histogram of gray scale image and color image channels.
 import cv2
@@ -83,19 +89,19 @@ cv2.destroyAllWindows()
 
 ```
 ## Output:
-### Input Grayscale Image and Color Image
-![](1.PNG)
+#### Input Grayscale Image and Color Image
+<img src="https://github.com/Kaushika-Anandh/Histogram-of-an-image/blob/main/1.PNG" width="600" height="250">
 <br>
 
 
-### Histogram of Grayscale Image and any channel of Color Image
-![](2.png)
-<br>
-![](3.png)
-<br>
+#### Histogram of Grayscale Image and any channel of Color Image
+<img src="https://github.com/Kaushika-Anandh/Histogram-of-an-image/blob/main/2.png" width="300" height="270">
 
-### Histogram Equalization of Grayscale Image
-![](4.PNG)
+<img src="https://github.com/Kaushika-Anandh/Histogram-of-an-image/blob/main/3.png" width="300" height="270">
+
+
+#### Histogram Equalization of Grayscale Image
+<img src="https://github.com/Kaushika-Anandh/Histogram-of-an-image/blob/main/4.PNG" width="600" height="250">
 <br>
 
 
